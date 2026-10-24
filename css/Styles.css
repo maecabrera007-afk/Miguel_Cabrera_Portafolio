@@ -1,0 +1,20 @@
+:root {
+  --fondo: #f7f5ef;
+  --tinta: #1f2a37;
+  --suave: #4b5563;
+  --acento: #1d4ed8;
+  --linea: #d9d5c8;
+  --tarjeta: #ffffff;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: "Work Sans", system-ui, sans-serif;
+  line-height: 1.65;
+  color: var(--tinta);
+  background: var(--fondo);
+}
+h1, h2, h3 { font-family: "Fraunces", Georgia, serif; line-height: 1.2; margin: 0 0 .5rem; }
+a { color: var(--acento); }
+a:focus-visible { outline: 3px solid var(--acento); outline-offset: 3px; }
